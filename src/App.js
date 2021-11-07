@@ -1,8 +1,8 @@
 
 function App() {
   return (
-    <div className="app">
-     hello from react
+    <div className= "app">
+      <navbar/>
     </div>
   );
 }
