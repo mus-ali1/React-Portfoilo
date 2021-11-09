@@ -2,7 +2,7 @@ import React from './contact.scss'
 
 export default function contact() {
     return (
-        <div className= "contact">
+        <div className= "contact" id="contact">
             
         </div>
     )
