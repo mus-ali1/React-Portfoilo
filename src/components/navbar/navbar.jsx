@@ -1,9 +1,9 @@
 import React from './navbar.scss'
 import {Person, Email} from "@material-ui/icons"
 
-export default function Navbar() {
+export default function Navbar({ menuOpen,setMenuOpen}) {
     return (
-        <div className = "navbar active">
+        <div className ={"navbar " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
                    <a href="intro" className= "logo">genius.</a>
@@ -17,7 +17,7 @@ export default function Navbar() {
                    </div>
                 </div>
                 <div className="right">
-                    <div className="hamburger">
+                    <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
                         <span className = "line1"></span>
                         <span className = "line2"></span>
                         <span className = "line3"></span>
