@@ -9,7 +9,10 @@ export default function Navbar({ menuOpen,setMenuOpen}) {
                    <a href="intro" className= "logo">genius.</a>
                    <div className="itemContainer">
                    <Person className="icon"/>
-                   <span>+44 7404 617 287</span>
+                   <span>
+                   <a href="https://drive.google.com/file/d/1M8Ot-fwYLkKCaYRBk8xA1DoauOp08YtG/view?usp=sharing ">
+                   View CV/Resume</a>
+                   </span>
                    </div>
                    <div className="itemContainer">
                    <Email className="icon"/>
@@ -29,4 +32,11 @@ export default function Navbar({ menuOpen,setMenuOpen}) {
     )
 }
 
+
+// <Person className="icon"/>
+//                    <span>                                           
+//                    <a href="https://drive.google.com/file/d/1M8Ot-fwYLkKCaYRBk8xA1DoauOp08YtG/view?usp=sharing ">
+//                        View CV/Resume
+//                         </a>
+//                    </span>
 
