@@ -1,8 +1,8 @@
 import Navbar from './components/navbar/navbar';
 import Intro from "./components/intro/intro";
-import Portfolio from "./components/portfolio/portfolio";
+import About from "./components/about/about";
 import Projects from "./components/projects/projects";
-import Contact from "./components/contact/contact";
+// import Contact from "./components/contact/contact";
 import "./app.scss"
 import { useState } from "react";
 import Menu from "./components/menu/menu";
@@ -16,9 +16,9 @@ function App() {
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
         <Intro/>
-        <Portfolio/>
+        <About/>
         <Projects/>
-        <Contact/>
+        {/* <Contact/> */}
       </div>
     </div>
   );
