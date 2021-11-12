@@ -1,0 +1,58 @@
+.portfolio {
+  background-color: #ddd5d0ff;
+  }
+
+.about__container {
+
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+
+  }
+
+  .about__text {
+
+    max-width: 600px;
+    font-size: 25px;
+
+    h1{
+margin-bottom: 20px;
+margin-left: 150px;
+
+    }
+  }
+
+  .tech {
+
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 60px;
+    justify-content:space-evenly;
+
+    img {
+
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      height: 80px;
+   
+    }
+ }
+  
+  /*  ---------------- MEDIA QUERIES ----------- */
+  
+  @media only screen and (max-width: 900px ){
+    .about__container {
+      flex-direction: column;
+    }
+  }
+  
+  @media only screen and (max-width: 700px ){
+    .about__text {
+      max-width: 300px;
+    }
+  }
