@@ -1,9 +1,9 @@
-// import React from './contact.scss'
+import React from './contact.scss'
 
-// export default function contact() {
-//     return (
-//         <div className= "contact" id="contact">
+export default function contact() {
+    return (
+        <div className= "contact" id="contact">
     
-//         </div>
-//     )
-// }
+        </div>
+    )
+}
