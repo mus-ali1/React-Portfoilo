@@ -1,5 +1,7 @@
 import React from './navbar.scss'
 import {Person, Email} from "@material-ui/icons"
+import { FaGithubSquare } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 
 export default function Navbar({ menuOpen,setMenuOpen}) {
     return (
@@ -17,6 +19,8 @@ export default function Navbar({ menuOpen,setMenuOpen}) {
                    <div className="itemContainer">
                    <Email className="icon"/>
                    <span>mustafa@genius.com</span>
+                   <a href="https://github.com/mus-ali1" className= "social"><FaGithubSquare size={20}/></a>
+                   <a href="https://linkedin.com/in/mustafa-ali-101" className= "social"><FaLinkedin size={20}/></a>
                    </div>
                 </div>
                 <div className="right">
@@ -25,7 +29,7 @@ export default function Navbar({ menuOpen,setMenuOpen}) {
                         <span className = "line2"></span>
                         <span className = "line3"></span>
                         </div>
-                </div>
+                        </div>
             </div>
             
         </div>
