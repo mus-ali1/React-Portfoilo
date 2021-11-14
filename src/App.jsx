@@ -2,7 +2,7 @@ import Navbar from './components/navbar/navbar';
 import Intro from "./components/intro/intro";
 import About from "./components/about/about";
 import Projects from "./components/projects/projects";
-// import Contact from "./components/contact/contact";
+import Contact from "./components/contact/contact";
 import "./app.scss"
 import { useState } from "react";
 import Menu from "./components/menu/menu";
@@ -18,7 +18,7 @@ function App() {
         <Intro/>
         <About/>
         <Projects/>
-        {/* <Contact/> */}
+        <Contact/>
       </div>
     </div>
   );
