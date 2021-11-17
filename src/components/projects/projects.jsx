@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./projects.scss";
 import  {FaGithubSquare} from 'react-icons/fa';
-import  {BsLink45Deg} from 'react-icons/fa';
+import  {BsLink45Deg} from 'react-icons/bs';
 
 
 export default function Works() {
@@ -85,7 +85,6 @@ export default function Works() {
                   </div>
                  <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <span id="span"><button id="button" >Check it out</button></span>
               </div>
               </div>
               <div className="right">
