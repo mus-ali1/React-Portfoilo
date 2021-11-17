@@ -1,5 +1,8 @@
 import { useState } from "react";
 import "./projects.scss";
+import  {FaGithubSquare} from 'react-icons/fa';
+import  {BsLink45Deg} from 'react-icons/fa';
+
 
 export default function Works() {
   //useState which determines which slide is presented upon inital page upload
@@ -7,8 +10,8 @@ export default function Works() {
   const data = [
     {
       id: "1",
-      icon: "./assets/github.png",
-      link: "https://github.com/mus-ali1/EmployeeTracker",
+      github: "https://github.com/mus-ali1/EmployeeTracker",
+      deployed: "https://sharing-is-caring-dreamteam.herokuapp.com/login",
       title: "Employee- Tracker",
       desc:
         "A command line application which utilizes node JS Express and Mysql to provide a useful and easily accessible employee management system. ",
@@ -76,10 +79,11 @@ export default function Works() {
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
-                  <div className="imgContainer">
-                    <img src={d.icon} alt=""/>
+                  <div className="social">
+                  <a href= {d.github} className= "social"><FaGithubSquare size={30}/> </a>
+                  <a href= {d.deployed} className= "social"><BsLink45Deg size={30}/></a>
                   </div>
-                  <h2>{d.title}</h2>
+                 <h2>{d.title}</h2>
                   <p>{d.desc}</p>
                   <span id="span"><button id="button" >Check it out</button></span>
               </div>
