@@ -84,6 +84,7 @@
         flex-direction: row;
         padding-left: 20px;
         text-decoration: none;
+        color: $mainColor;
       }
             h2 {
               font-size: 20px;
@@ -98,21 +99,7 @@
             //     display: none;
             //   }
             }
-            #span {
-              font-size: 12px;
-              font-weight: 600;
-              text-decoration: underline;
-              cursor: pointer;
-              padding-left: 50px;
-
-              #button {
-
-            border-radius: 50px;
             
-              }
-              
-
-            }
           }
         }
         .right {
