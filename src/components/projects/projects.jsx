@@ -55,7 +55,7 @@ export default function Projects() {
       deployed: "https://musali-note-taker.herokuapp.com/",
       title: "Express Note-Taker",
       desc:
-        "Created using NodeJS, the app uses an Express.js back end and will save and retrieve user generated note data from a JSON file. Allows user to input notes which are then returned to the back-end",
+        "Created using NodeJS, the app uses an Express.js back end and will save and retrieve user generated note data from a JSON file. Allows user to input notes which are then returned to the back-end.",
       img:
         "./assets/express-noteTaker.png",
     },
