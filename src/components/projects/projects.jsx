@@ -94,7 +94,7 @@ export default function Projects() {
               </div>
               <div className="right">
                 <img
-                  src={d.img}
+                  src={process.env.PUBLIC_URL + d.img}
                   alt=""
                 />
               </div>
