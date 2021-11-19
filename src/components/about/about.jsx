@@ -14,16 +14,16 @@ export default function About() {
     </div>
     </div> 
     <div className="tech">
-          <img src="assets/javascript.png" alt="" />
-          <img src="assets/html5.png" alt="" />
-          <img src="assets/css3.png" alt="" />
-          <img src="assets/mysql.png" alt="" />
-          <img src="assets/mongodb.png" alt="" />
-          <img src="assets/expressjs.png" alt="" />
-          <img src="assets/react.png" alt="" />
-          <img src="assets/node.png" alt="" />
-          <img src="assets/git.png" alt="" />
-          <img src="assets/github.png" alt="" />
+    <img src={ process.env.PUBLIC_URL + "/assets/javascript.png" } alt="" />
+    <img src={ process.env.PUBLIC_URL + "/assets/html5.png" } alt="" />
+    <img src={ process.env.PUBLIC_URL + "/assets/css3.png" } alt="" />
+    <img src={ process.env.PUBLIC_URL + "/assets/mysql.png" } alt="" />
+    <img src={ process.env.PUBLIC_URL + "/assets/mongodb.png" } alt="" />
+    <img src={ process.env.PUBLIC_URL + "/assets/expressjs.png" } alt="" />
+    <img src={ process.env.PUBLIC_URL + "/assets/react.png" } alt="" />
+    <img src={ process.env.PUBLIC_URL + "/assets/node.png" } alt="" />
+    <img src={ process.env.PUBLIC_URL + "/assets/git.png" } alt="" />
+    <img src={ process.env.PUBLIC_URL + "/assets/github.png" } alt="" />
     </div>
   );         
      </div>
