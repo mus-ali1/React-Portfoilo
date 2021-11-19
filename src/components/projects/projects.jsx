@@ -4,7 +4,7 @@ import  {FaGithubSquare} from 'react-icons/fa';
 import  {BsLink45Deg} from 'react-icons/bs';
 
 
-export default function Works() {
+export default function Projects() {
   //useState which determines which slide is presented upon inital page upload
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [

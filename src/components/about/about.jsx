@@ -1,6 +1,6 @@
 import React from './about.scss'
 
-export default function about() {
+export default function About() {
     return (
         <div className ="portfolio" id ="portfolio">
 <div className="about__container">
