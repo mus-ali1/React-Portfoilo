@@ -72,7 +72,7 @@ export default function Projects() {
   };
   
   return (
-    <div className="works" id="works">
+    <div className="projects" id="projects">
       <div
         className="slider"
         // translateX=repositions the slider element horizontally on the 2D plan, intial state is Zero however as currentSlide= UseState(0) * 100 =0

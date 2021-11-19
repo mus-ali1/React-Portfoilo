@@ -2,7 +2,7 @@ import React from './about.scss'
 
 export default function About() {
     return (
-        <div className ="portfolio" id ="portfolio">
+        <div className ="about" id ="about">
 <div className="about__container">
       <div className="about__text">
         <h1>ABOUT ME</h1>
