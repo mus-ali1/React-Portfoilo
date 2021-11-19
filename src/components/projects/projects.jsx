@@ -16,7 +16,7 @@ export default function Projects() {
       desc:
         "Created in an NodeJS environment with a MYSQL back-end, Express-Server,Sequelize as the ORM, and Handlebars for templating. This app allows users to add and retrieve recipes.   ",
       img:
-        "./assets/Screenshot.png",
+        "/assets/Screenshot.png",
     },
     {
       id: "2",
@@ -26,7 +26,7 @@ export default function Projects() {
       desc:
         "A workout tracker created using a Mongo database with a Mongoose schema and routes handled with Express. Allows users to track and update thier workouts.  ",
       img:
-        "./assets/appthree.png",
+        "/assets/appthree.png",
      
     },
     {
@@ -37,7 +37,7 @@ export default function Projects() {
       desc:
         " A command line application created in NodeJS environment uses Express to handle routes and MySql for the database. Allows employer to update records of employees as part of thier organization. ",
       img:
-        "./assets/employee-tracker.png",
+        "/assets/employee-tracker.png",
     },
     {
       id: "4",
@@ -47,7 +47,7 @@ export default function Projects() {
       desc:
         " Developed using NodeJS ,the application uses Express.js API and Sequelize as an ORM to interact with a MySQL database, tested for end-points using Insomnia. The App provides full back-end functionality for an E-Commerce website.",
       img:
-        "./assets/categories.png",
+        "/assets/categories.png",
     },
     {
       id: "5",
@@ -57,7 +57,7 @@ export default function Projects() {
       desc:
         "Created using NodeJS, the app uses an Express.js back end and will save and retrieve user generated note data from a JSON file. Allows user to input notes which are then returned to the back-end.",
       img:
-        "./assets/express-noteTaker.png",
+        "/assets/express-noteTaker.png",
     },
   ];
 
@@ -103,13 +103,13 @@ export default function Projects() {
         ))}
       </div>
       <img
-        src="assets/arrow.png"
+        src="/assets/arrow.png"
         className="arrow left"
         alt=""
         onClick={() => handleClick("left")}
       />
       <img
-        src="assets/arrow.png"
+        src="/assets/arrow.png"
         className="arrow right"
         alt=""
         onClick={() => handleClick()}
