@@ -10,16 +10,37 @@ export default function Projects() {
   const data = [
     {
       id: "1",
+      github: "https://github.com/meljack1/code-sharers",
+      deployed: "https://mdmcodeshare.herokuapp.com/",
+      title: "Full-Stack Application",
+      desc:
+      "Created with a React front end with Material-UI library & Node.js and Express.js server, GraphQL to handle queries to server, MongoDB and Mongoose ODM for DB, JWT used for authentication, this app allows users to add, retrieve and comment on code snippets.  ",
+      
+      img:
+        "/assets/Screenshot2.png",
+    },
+    {
+      id: "2",
       github: "https://github.com/mus-ali1/sharing-is-caring",
       deployed: "https://sharing-is-caring-dreamteam.herokuapp.com/login",
       title: "Full-Stack Application",
       desc:
-        "Created in an NodeJS environment with a MYSQL back-end, Express-Server,Sequelize as the ORM, and Handlebars for templating. This app allows users to add and retrieve recipes.   ",
+      "Created in an NodeJS environment with a MYSQL back-end, Express-Server,Sequelize as the ORM, and Handlebars for templating. This app allows users to add and retrieve recipes.   ",
       img:
         "/assets/Screenshot.png",
+     
     },
     {
-      id: "2",
+      id: "3",
+      github: "https://github.com/mus-ali1/book-search-engine",
+      deployed: "https://mus-ali1book-search.herokuapp.com/",
+      title: "Book Search Engine",
+      desc:
+        "Google Books API search engine built with a RESTful API, and refactored to run on a GraphQL API built with Apollo Server.Built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API. Users can search and save their book of choice",
+      img:
+        "/assets/Screenshot3.png",
+    },
+    { id: "2",
       github: "https://github.com/mus-ali1/NoSql-Workout-Tracker",
       deployed: "https://mus-ali1fitness-tracker.herokuapp.com/",
       title: "NoSql Workout Tracker",
@@ -27,20 +48,10 @@ export default function Projects() {
         "A workout tracker created using a Mongo database with a Mongoose schema and routes handled with Express. Allows users to track and update thier workouts.  ",
       img:
         "/assets/appthree.png",
-     
     },
-    {
-      id: "3",
-      github: "https://github.com/mus-ali1/EmployeeTracker",
-      deployed: "https://www.youtube.com/watch?v=vC1KFeJ1dhM",
-      title: "Employee Management System",
-      desc:
-        " A command line application created in NodeJS environment uses Express to handle routes and MySql for the database. Allows employer to update records of employees as part of thier organization. ",
-      img:
-        "/assets/employee-tracker.png",
-    },
-    {
-      id: "4",
+    {   
+      
+      id: "5",
       github: "https://github.com/mus-ali1/E-Commerce-Back-End",
       deployed: "https://www.youtube.com/watch?v=iEXJofg6HSs",
       title: "E-Commerce Back-End",
@@ -48,16 +59,7 @@ export default function Projects() {
         " Developed using NodeJS ,the application uses Express.js API and Sequelize as an ORM to interact with a MySQL database, tested for end-points using Insomnia. The App provides full back-end functionality for an E-Commerce website.",
       img:
         "/assets/categories.png",
-    },
-    {
-      id: "5",
-      github: "https://github.com/mus-ali1/Note-Taker",
-      deployed: "https://musali-note-taker.herokuapp.com/",
-      title: "Express Note-Taker",
-      desc:
-        "Created using NodeJS, the app uses an Express.js back end and will save and retrieve user generated note data from a JSON file. Allows user to input notes which are then returned to the back-end.",
-      img:
-        "/assets/express-noteTaker.png",
+      
     },
   ];
 
