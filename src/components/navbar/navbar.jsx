@@ -36,5 +36,7 @@ export default function Navbar({ menuOpen,setMenuOpen}) {
             
         </div>
     )
+
 }
+
 
