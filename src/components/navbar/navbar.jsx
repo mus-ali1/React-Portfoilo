@@ -14,7 +14,7 @@ export default function Navbar({ menuOpen,setMenuOpen}) {
                    <div className="itemContainer">
                    <Person className="icon"/>
                    <span>
-                   <a href="https://drive.google.com/file/d/1SwixyynYdyE8XO_fHVLCCmtchfO2-olX/view?usp=sharing ">
+                   <a href="https://drive.google.com/file/d/1Zz_6SwHz0Fx_kwg40WsRl4QQqyjYF845/view?usp=sharing ">
                    View CV/Resume</a>
                    </span>
                    </div>
