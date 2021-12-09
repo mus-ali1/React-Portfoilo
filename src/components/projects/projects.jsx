@@ -17,7 +17,7 @@ export default function Projects() {
       "Created with a React front end with Material-UI library & Node.js and Express.js server, GraphQL to handle queries to server, MongoDB and Mongoose ODM for DB, JWT used for authentication, this app allows users to add, retrieve and comment on code snippets.  ",
       
       img:
-        "/assets/screenshot2.png",
+        "/assets/Screenshot2.png",
     },
     {
       id: "2",
